@@ -1,0 +1,17 @@
+{
+  "name": "C++17 LiDAR ADAS Dev Container",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "runArgs": [
+    "--shm-size=256m"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  }
+}

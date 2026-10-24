@@ -1,0 +1,7 @@
+/build/
+/build-asan/
+/lidar_codec_ipc_pipeline.zip
+*.ply
+*.vlp16
+/projectexplain.md
+.vscode/

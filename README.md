@@ -218,8 +218,3 @@ Dockerfile           Ubuntu build environment
 CMakeLists.txt       targets, test registration, sanitizer option
 ```
 
-## Resume bullet (edit to match your verified measurements)
-
-> Built a C++17 Linux LiDAR streaming pipeline with UDP/epoll ingestion, a bounded SPSC queue, VLP-16-style point decoding, and POSIX shared-memory frame delivery; added CLI validation, operational metrics, GoogleTest coverage, Docker reproducibility, and ASan/UBSan CI.
-
-Only add a measured throughput or latency number to a resume after benchmarking on a named target machine and preserving the test conditions.
